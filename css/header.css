@@ -25,7 +25,7 @@ nav li{
     position: relative;
     height: 100%;
     padding: 0px 10px;
-    transition: all 350ms;
+    transition: all 400ms;
     list-style: none;
 }
 
@@ -37,10 +37,13 @@ nav li a{
 }
 
 nav li:hover{
-    background-color: #66FCF1;
-    color: #1F2833;
-}
+    /* background-color: #66FCF1;   */
+    background-color: #1F2833; 
+} 
 
+nav li a:hover{
+    color: #45A29E;
+} 
 
 
 
