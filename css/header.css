@@ -3,22 +3,25 @@ header{
     height: 4rem;
     padding: 0px 25px;
     line-height: 4rem;
+    display: flex;
 }
 
 header > *{
     /*displays side by side*/
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex
 }
 
 /*Everything about nav*/
 nav{
     height: 100%;
     vertical-align: top;
-    float: right;
+    /* float: right; */
+    display: flex;
 }
 nav li{
     height: 100%;
-    display: inline-block;
+    display: flex;
     position: relative;
     height: 100%;
     padding: 0px 10px;
