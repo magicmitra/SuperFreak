@@ -1,0 +1,40 @@
+header{
+    background-color: #45A29E;
+    height: 4rem;
+    padding: 0px 25px;
+    line-height: 4rem;
+}
+
+header > *{
+    /*displays side by side*/
+    display: inline-block;
+}
+
+/*Everything about nav*/
+nav{
+    height: 100%;
+    vertical-align: top;
+    float: right;
+}
+nav li{
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    padding: 0px 10px;
+    transition: all 350ms;
+}
+
+nav li a{
+    color: #1F2833;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: #66FCF1;
+    color: #1F2833;
+}
+
+
+
+

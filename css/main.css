@@ -1,0 +1,7 @@
+@import './header.css';
+@import './resets.css';
+@import './centerpiece.css';
+
+:root{
+    font-family: 'Ubuntu', sans-serif;
+}
