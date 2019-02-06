@@ -11,6 +11,8 @@ h1{
     right: 0;
     text-align: center;
     padding: 5px 0px;
+    /*drop it down a bit*/
+    transform: translateY(1.5vh);
 }
 
 
@@ -19,7 +21,12 @@ article{
     position: absolute;
     left: 0;
     right: 0;
-    transform: translateY(10vh); 
+    transform: translateY(10vh);
+    /*margin on article*/
+    max-width: 700px;
+    padding: 15px;
+    margin: auto;
+    /* display: flex; */
 }
 
 article h3{
@@ -33,12 +40,12 @@ article h3{
 }
 
 .linktext{
-    color: #C5C6C7;
+    color:  #66FCF1;
     text-decoration: none;
 }
 
 .linktext:hover{
-    color: #66FCF1;
+    color: #45A29E;
 }
 
 footer{
@@ -46,7 +53,8 @@ footer{
     position: absolute;
     left: 0;
     right: 0;
-    transform: translateY(40vh);
+    transform: translateY(70vh);
+    /* display: flex; */
 }
 
 footer h3{

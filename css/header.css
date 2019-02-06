@@ -1,8 +1,8 @@
 header{
     background-color: #45A29E;
-    height: 4rem;
+    height: 2.75rem;
     padding: 0px 25px;
-    line-height: 4rem;
+    line-height: 2.75rem;
     display: flex;
 }
 
@@ -17,7 +17,7 @@ nav{
     height: 100%;
     vertical-align: top;
     /* float: right; */
-    display: flex;
+    display: flex; 
 }
 nav li{
     height: 100%;
@@ -26,11 +26,14 @@ nav li{
     height: 100%;
     padding: 0px 10px;
     transition: all 350ms;
+    list-style: none;
 }
 
 nav li a{
     color: #1F2833;
     text-decoration: none;
+    /*override font size to be smaller in header*/
+    font-size: 16px;
 }
 
 nav li:hover{
